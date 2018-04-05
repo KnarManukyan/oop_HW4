@@ -34,4 +34,10 @@ int nextperfect (int num){
       if(n%i == 0){
         sum += i;
       }
+     }
+      if(sum == n){
+       return n;
+     }
+    }
+}
     }
